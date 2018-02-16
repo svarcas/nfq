@@ -1,0 +1,137 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>MOTO</title>
+  <script src="list.js"></script>
+  <link href="style_orders.css" rel="stylesheet" type="text/css" /> 
+  <link href="semantic.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="subheader">
+<div class="container">
+<p>Didžiausias motociklų pasirinkimas Lietuvoje</p>
+
+<a href="#">Atsiskaitymas</a> 
+<a href="#">Pageidavimai</a> 
+<a href="orders.html">Prekių krepšelis</a> 
+<a href="#">Aptarnavimo telefonas +370 608 31508 </a>
+</div>
+</div>
+<!--==main header==-->
+<div id="main-header">
+<!--logo-->
+<div id="logo"> 
+<span id="ist">T</span><span id="iist">urbo</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="users">
+  <input class="search" placeholder="Search">
+  <button class="sort" data-sort="name">
+    Rikiuoti pagal pavadinimą
+  </button>
+
+  <ul class="list"></ul>
+  <ul class="pagination"></ul>
+  
+</div>
+
+  
+  
+
+    <script>
+      var options = {
+  valueNames: [ 'name', 'born' ],
+  item: '<li><h3 class="name"></h3><p class="born"></p></li>',
+  page: 5,
+  pagination: true
+};
+
+var values = [{
+    name: 'Yamaha FZR',
+    born: 2017
+  },
+  {
+    name: 'Yamaha FZR',
+    born: 2006
+  },
+  {
+    name: 'Kawasaki ZXR',
+    born: 2009
+},
+{
+    name: 'Yamaha FZR',
+    born: 2017
+  },
+  {
+    name: 'Yamaha FZR',
+    born: 2006
+  },
+  {
+    name: 'Kawasaki ZXR',
+    born: 2009
+},
+{
+    name: 'Yamaha FZR',
+    born: 2017
+  },
+  {
+    name: 'Yamaha FZR',
+    born: 2006
+  },
+  {
+    name: 'Kawasaki ZXR',
+    born: 2009
+},
+{
+    name: 'Yamaha FZR',
+    born: 2017
+  },
+  {
+    name: 'Yamaha FZR',
+    born: 2006
+  },
+  {
+    name: 'Kawasaki ZXR',
+    born: 2009
+},
+{
+    name: 'Yamaha FZR',
+    born: 2017
+  },
+  {
+    name: 'Yamaha FZR',
+    born: 2006
+  },
+  {
+    name: 'Kawasaki ZXR',
+    born: 2009
+},
+{
+    name: 'Yamaha FZR',
+    born: 2017
+  },
+  {
+    name: 'Yamaha FZR',
+    born: 2006
+  },
+  {
+    name: 'Kawasaki ZXR',
+    born: 2009
+}];
+
+var userList = new List('users', options, values);
+
+      //# sourceURL=pen.js
+    </script>
+
+ </body></html>
