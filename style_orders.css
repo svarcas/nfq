@@ -11,21 +11,27 @@
 margin:0 auto}
 #subheader{
 	width:100%;
-	height:30px;
-	background:rgb(182,255,0);
-	color:rgb(0,174,0);
-	margin-top:-15px;
+	height:60px;
+	background:rgb(165,165,165);
+	color:rgb(50,141,241);
+	margin-top:0px;
 }
 #subheader p{
 	float:left;
-	margin-top:7px;
+	margin-top:8px;
+	height:30px;
+	font-size:20px;
+	font-style:italic;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 #subheader a{
 	float:right;
-	line-height:30px;
-	color:rgb(0,174,0);
-	text-decoration:none;
+	color:rgb(50,141,241);
+	font-size:15px;
+	font-style:italic;
 	margin-left:30px;
+	margin-top:12px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 #subheader a:hover{
 color:rgb(0,0,0);
@@ -35,7 +41,7 @@ transition:all .7se ease;
 	#main-header{
 		width:100%;
 		height:100px;
-		background:rgb(0,213,0);
+		background:rgb(221,221,221);
 		float:left;
 		margin-top:-15px;
 	}
@@ -44,16 +50,17 @@ transition:all .7se ease;
 			margin-top:27px;
 			float:left;
 			font-style:italic;
+			margin-top:41px;
 			}
 		#ist{
-			color:rgb(182,255,0);
+			color:rgb(50,141,241);
 			font-size:45px;
 			font-weight:bold;
-			margin-left:15px;
+			margin-left:19px;
 			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 		}
 		#iist{
-			color:rgb(182,255,0);
+			color:rgb(50,141,241);
 			font-size:35px;
 			font-weight:bold;
 			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -65,29 +72,60 @@ transition:all .7se ease;
 				padding:43px;
 				margin-left:75px;
 				}
-			.search-area{
+				.sort{
+				height: 25px;
+			border: none;
+			margin-left:20px;
+			border-radius: 10px;
+			float:left;
+			padding-left:6px;
+			color:rgb(50,141,241);
+			background-color:rgb(165,165,165);
+			}
+			
+				
+			.search{
 				height: 25px;
 			border: none;
 			border-radius: 10px;
 			float:left;
-			padding-left:6px;
+			padding-left:10px;
 			}
-			.sort{
-				height: 25px;
-			border: none;
-			border-radius: 10px;
-			float:left;
-			padding-left:6px;
-			color:RGB(0,174,0);
-			background-color:rgb(255,149,0);
-			}
-			.sort:hover{
-color:rgb(0,0,0);
-transition:all .7se ease;
+			
 .list{
-			color:rgb(182,255,0);
-			font-size:45px;
+			color:rgb(0,0,0);
+			font-size:10px;
 			font-weight:bold;
-			margin-left:15px;
-			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+			margin-left:-80px;
+			margin-top:80px;
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+			}
+.name{
+			color:rgb(0,0,0);
+			margin-top:100px;
+			font-size:20px;
+			font-weight:bold;
+			margin-left:0px;
+			
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+			}
+			
+.born{
+			color:rgb(0,0,0);
+			font-size:15px;
+			font-weight:lighter;
+			margin-left:0px;
+			margin-top:-15px;
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+			}
+			
+.pagination{
+			color:rgb(0,0,0);
+			font-size:15px;
+			margin-left:-120px;
+			margin-top:15px;
+			font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+			}
+			
+			
 
